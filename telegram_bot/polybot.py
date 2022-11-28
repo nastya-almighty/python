@@ -27,7 +27,7 @@ def get_poly2(message):
 def get_sum(message):
     newline = poly1 + "+" + poly2
     x = sympify(newline)
-    bot.send_message(message.from_user.id, 'Сумма многочленов: ' + str(x))
+    bot.send_message(message.from_user.id, 'Сумма многочленов - ' + str(x))
 
 
 bot.polling(none_stop=True)
